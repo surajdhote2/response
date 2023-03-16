@@ -1,0 +1,146 @@
+/* Write your code here. */
+
+body {
+  margin: 0px;
+}
+
+.button-app-container {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: "Bree Serif";
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .button-container {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 12px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .button {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+.like {
+  background-color: #fbbf24;
+  height: 20px;
+  width: 40px;
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .like {
+    height: 40px;
+    width: 70px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .like {
+    height: 60px;
+    width: 100px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .like {
+    height: 80px;
+    width: 120px;
+  }
+}
+
+.comment {
+  background-color: #ffffff;
+  color: #323f4b;
+  height: 20px;
+  width: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .comment {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .comment {
+    height: 250px;
+    width: 250px;
+  }
+}
+
+.share {
+  background-color: #1d4ed8;
+  height: 270px;
+  width: 270px;
+}
+
+@media screen and (min-width: 768px) {
+  .share {
+    height: 350px;
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .share {
+    height: 400px;
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .share {
+    height: 450px;
+    width: 450px;
+  }
+}
+
+.button-title {
+  color: #ffffff;
+  font-family: "Bree Serif";
+  font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .box-title {
+    font-size: 24px;
+  }
+}
